@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Suite">
+	<listeners>
+		<listener class-name="Basic.Listeners2" />
+	</listeners>
+
+
+     <test name="Verify Sign UP functionality">
+    <classes>
+          <class name="Basic.Signup"/>
+           </classes>
+  </test> <!-- Test -->
+
+  
+ </suite> <!-- Suite -->

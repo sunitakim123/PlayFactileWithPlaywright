@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-23T12:59:43 IST" name="Suite" finished-at="2024-12-23T13:02:36 IST" duration-ms="172869">
+    <groups>
+    </groups>
+    <test started-at="2024-12-23T12:59:43 IST" name="Verify Sign UP functionality" finished-at="2024-12-23T13:02:36 IST" duration-ms="172869">
+      <class name="Basic.Signup">
+        <test-method is-config="true" signature="initilize()[pri:0, instance:Basic.Signup@1500b2f3]" started-at="2024-12-23T12:59:43 IST" name="initilize" finished-at="2024-12-23T13:00:06 IST" duration-ms="23340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilize -->
+        <test-method signature="Sign_Up_with_Valid_Credentials()[pri:1, instance:Basic.Signup@1500b2f3]" started-at="2024-12-23T13:00:06 IST" name="Sign_Up_with_Valid_Credentials" finished-at="2024-12-23T13:00:20 IST" duration-ms="13779" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Sign_Up_with_Valid_Credentials -->
+        <test-method is-config="true" signature="close()[pri:0, instance:Basic.Signup@1500b2f3]" started-at="2024-12-23T13:00:20 IST" name="close" finished-at="2024-12-23T13:00:20 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="initilize()[pri:0, instance:Basic.Signup@1500b2f3]" started-at="2024-12-23T13:00:20 IST" name="initilize" finished-at="2024-12-23T13:00:42 IST" duration-ms="21672" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilize -->
+        <test-method signature="Sign_Up_with_an_already_Registered_Email()[pri:2, instance:Basic.Signup@1500b2f3]" started-at="2024-12-23T13:00:42 IST" name="Sign_Up_with_an_already_Registered_Email" finished-at="2024-12-23T13:00:46 IST" duration-ms="4130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Sign_Up_with_an_already_Registered_Email -->
+        <test-method is-config="true" signature="close()[pri:0, instance:Basic.Signup@1500b2f3]" started-at="2024-12-23T13:00:46 IST" name="close" finished-at="2024-12-23T13:00:46 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="initilize()[pri:0, instance:Basic.Signup@1500b2f3]" started-at="2024-12-23T13:00:46 IST" name="initilize" finished-at="2024-12-23T13:01:05 IST" duration-ms="18848" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilize -->
+        <test-method signature="SignUp_with_an_Invalid_EmailID()[pri:3, instance:Basic.Signup@1500b2f3]" started-at="2024-12-23T13:01:05 IST" name="SignUp_with_an_Invalid_EmailID" finished-at="2024-12-23T13:01:09 IST" duration-ms="3827" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignUp_with_an_Invalid_EmailID -->
+        <test-method is-config="true" signature="close()[pri:0, instance:Basic.Signup@1500b2f3]" started-at="2024-12-23T13:01:09 IST" name="close" finished-at="2024-12-23T13:01:09 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="initilize()[pri:0, instance:Basic.Signup@1500b2f3]" started-at="2024-12-23T13:01:09 IST" name="initilize" finished-at="2024-12-23T13:01:26 IST" duration-ms="17374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilize -->
+        <test-method signature="SignUp_with_Password_ConfirmPassword_Missmatch()[pri:4, instance:Basic.Signup@1500b2f3]" started-at="2024-12-23T13:01:26 IST" name="SignUp_with_Password_ConfirmPassword_Missmatch" finished-at="2024-12-23T13:01:30 IST" duration-ms="3731" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignUp_with_Password_ConfirmPassword_Missmatch -->
+        <test-method is-config="true" signature="close()[pri:0, instance:Basic.Signup@1500b2f3]" started-at="2024-12-23T13:01:30 IST" name="close" finished-at="2024-12-23T13:01:30 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="initilize()[pri:0, instance:Basic.Signup@1500b2f3]" started-at="2024-12-23T13:01:30 IST" name="initilize" finished-at="2024-12-23T13:01:46 IST" duration-ms="15841" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilize -->
+        <test-method signature="SignUp_with_a_Password_Less_Than_6_Characters()[pri:5, instance:Basic.Signup@1500b2f3]" started-at="2024-12-23T13:01:46 IST" name="SignUp_with_a_Password_Less_Than_6_Characters" finished-at="2024-12-23T13:01:50 IST" duration-ms="4351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignUp_with_a_Password_Less_Than_6_Characters -->
+        <test-method is-config="true" signature="close()[pri:0, instance:Basic.Signup@1500b2f3]" started-at="2024-12-23T13:01:50 IST" name="close" finished-at="2024-12-23T13:01:50 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="initilize()[pri:0, instance:Basic.Signup@1500b2f3]" started-at="2024-12-23T13:01:50 IST" name="initilize" finished-at="2024-12-23T13:02:11 IST" duration-ms="20551" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilize -->
+        <test-method signature="SignUp_with_an_Email_Containing_Invalid_Characters_Space()[pri:6, instance:Basic.Signup@1500b2f3]" started-at="2024-12-23T13:02:11 IST" name="SignUp_with_an_Email_Containing_Invalid_Characters_Space" finished-at="2024-12-23T13:02:14 IST" duration-ms="3561" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignUp_with_an_Email_Containing_Invalid_Characters_Space -->
+        <test-method is-config="true" signature="close()[pri:0, instance:Basic.Signup@1500b2f3]" started-at="2024-12-23T13:02:14 IST" name="close" finished-at="2024-12-23T13:02:14 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="initilize()[pri:0, instance:Basic.Signup@1500b2f3]" started-at="2024-12-23T13:02:14 IST" name="initilize" finished-at="2024-12-23T13:02:31 IST" duration-ms="16909" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilize -->
+        <test-method signature="SignUp_with_an_Password_Containing_Invalid_Characters_Space()[pri:7, instance:Basic.Signup@1500b2f3]" started-at="2024-12-23T13:02:31 IST" name="SignUp_with_an_Password_Containing_Invalid_Characters_Space" finished-at="2024-12-23T13:02:36 IST" duration-ms="4522" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignUp_with_an_Password_Containing_Invalid_Characters_Space -->
+        <test-method is-config="true" signature="close()[pri:0, instance:Basic.Signup@1500b2f3]" started-at="2024-12-23T13:02:36 IST" name="close" finished-at="2024-12-23T13:02:36 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Basic.Signup -->
+    </test> <!-- Verify Sign UP functionality -->
+  </suite> <!-- Suite -->
+</testng-results>
